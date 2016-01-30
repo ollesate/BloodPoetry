@@ -6,6 +6,8 @@ public enum ButtonAction
     Green,
     Red,
     Pause,
+    Click,
+    ClickBack,
     NUM
 }
 
@@ -235,7 +237,9 @@ public class ProperInput
             new JoystickButtonMap(JoystickButton.X, playerIndex), // Blue,
             new JoystickButtonMap(JoystickButton.A, playerIndex), // Green,
             new JoystickButtonMap(JoystickButton.B, playerIndex), // Red,
-            new JoystickButtonMap(JoystickButton.Start, playerIndex) // Pause
+            new JoystickButtonMap(JoystickButton.Start, playerIndex), // Pause
+            new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.A, playerIndex), new KeyboardButtonMap(KeyCode.Return)), //MenuClick
+            new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.B, playerIndex), new KeyboardButtonMap(KeyCode.Backspace)) //MenuClickBack
         };
 
         axes = new IAxisMap[]

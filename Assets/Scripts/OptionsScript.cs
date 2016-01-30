@@ -17,14 +17,16 @@ public class OptionsScript : MonoBehaviour
 
     public UnityEngine.UI.Text goreSetting;
 
+    ProperInput pIn;
+
     void Start()
     {
-
+        pIn = new ProperInput(0);
     }
 
     void Update()
     {
-        if (Input.GetButton("Action1_1"))
+        if (pIn.GetDown(ButtonAction.Green))
         {
             currGoreSet += 1;
             if (currGoreSet == GoreSettings.MAX)
@@ -33,7 +35,7 @@ public class OptionsScript : MonoBehaviour
             }
         }
         goreSetting.text = currGoreSet.ToString();
-        if (Input.GetButton("Action2_1"))
+        if (pIn.GetDown(ButtonAction.Red))
         {
             MenuItems[0].SetActive(true);
             MenuItems[1].SetActive(false);

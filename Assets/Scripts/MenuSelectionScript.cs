@@ -15,10 +15,20 @@ public class MenuSelectionScript : MonoBehaviour
     public int currSel = 0;
     private float spacing = 40;
     public GameObject[] MenuItems;
+    public AudioClip[] aClips = new AudioClip[3];
+    private AudioSource myASource;
+    ProperInput pIn;
+
+    void Start()
+    {
+        pIn = new ProperInput(0);
+        myASource = GetComponent<AudioSource>();
+    }
 
     public void Update()
     {
-        menuDirSel = GetStepping(Input.GetAxisRaw("LVertical_1"));
+        menuDirSel = GetStepping(pIn.Get(AxisAction.AimY));
+        
         currSel += Mathf.RoundToInt(menuDirSel);
         if (currSel < 0)
         {
@@ -35,13 +45,12 @@ public class MenuSelectionScript : MonoBehaviour
         pos.y = (currSel - midVal) * spacing;
         transform.localPosition = pos;
 
-
-        if (Input.GetButton("Action1_1"))
+        if (pIn.GetDown(ButtonAction.Green))
         {
             if (currSel == 3) //Start
             {
-                //Application.LoadLevel(1);
-                UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+                myASource.Stop();
+                StartCoroutine(StartGame());
             }
             if (currSel == 2) //Options
             {
@@ -55,10 +64,28 @@ public class MenuSelectionScript : MonoBehaviour
             }
             if (currSel == 0) //Exit
             {
-                Application.Quit();
+                StartCoroutine(Exit());
             }
         }
     }
+
+
+    IEnumerator StartGame()
+    {
+        myASource.Stop();
+        myASource.PlayOneShot(aClips[0]);
+        yield return new WaitForSeconds(myASource.clip.length);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+    }
+
+    IEnumerator Exit()
+    {
+        myASource.Stop();
+        myASource.PlayOneShot(aClips[2]);
+        yield return new WaitForSeconds(myASource.clip.length);
+        Application.Quit();
+    }
+
 
     public float GetStepping(float direction)
     {

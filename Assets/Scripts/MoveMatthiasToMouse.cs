@@ -38,8 +38,12 @@ public class MoveMatthiasToMouse : MonoBehaviour
             }
         }
         if (nowCollidingWith >= 6)
-        {
+        {            
             Destroy(transform.parent.gameObject);
         }   
+    }
+    void OnDestroy()
+    {
+        GetComponent<PlaySoundEffect>().PlaySoundAtPos();
     }
 }

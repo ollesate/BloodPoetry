@@ -64,6 +64,7 @@ public class SpawnBloodOnDeath : MonoBehaviour
 
 	void OnDestroy()
 	{
+		GetComponent<PlaySoundEffect>().PlaySoundAtPos();
 		SpawnBlood();
 	}
 }

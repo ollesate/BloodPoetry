@@ -56,6 +56,7 @@ public class SacrificeThrow : MonoBehaviour {
                 player.SetState( Player.State.Idle );
                 isUsing = false;
                 GetComponent<Fading>().FadeOut();
+				GetComponent<PlaySoundEffect>().PlaySoundAtPos();
             }
             else
             {

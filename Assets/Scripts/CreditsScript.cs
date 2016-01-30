@@ -4,10 +4,16 @@ using System.Collections;
 public class CreditsScript : MonoBehaviour {
 
 	public GameObject[] MenuItems;
-	
+
+    ProperInput pIn;
+
+    void Start()
+    {
+        pIn = new ProperInput(0);
+    }
 
 	void Update () {
-		if (Input.GetButton("Action2_1"))
+        if (pIn.GetDown(ButtonAction.Red))
 		{
 				MenuItems[0].SetActive(true);
 				MenuItems[1].SetActive(false);
