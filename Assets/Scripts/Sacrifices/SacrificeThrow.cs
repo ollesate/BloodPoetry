@@ -32,14 +32,14 @@ public class SacrificeThrow : MonoBehaviour {
             }
         }
 
-        if ( Input.GetButtonDown( "Throw " + playerIndex.ToString() ) )
+        if ( Input.GetButtonDown( "Action1_" + playerIndex.ToString() ) )
         {
             // Commence
             isThrowing = true;
             power_newton = 0;
             time = 0;
         }
-        else if ( Input.GetButtonUp( "Throw " + playerIndex.ToString() ) )
+        else if ( Input.GetButtonUp( "Action1_" + playerIndex.ToString() ) )
         {
             // Complete
             GameObject thrown = Instantiate( villagerPrefab );
@@ -58,8 +58,8 @@ public class SacrificeThrow : MonoBehaviour {
 
         }
 
-        float x = Input.GetAxisRaw( "Horizontal " + playerIndex.ToString() );
-        float y = Input.GetAxisRaw( "Vertical " + playerIndex.ToString() );
+        float x = Input.GetAxisRaw( "LHorizontal_" + playerIndex.ToString() );
+        float y = Input.GetAxisRaw( "LVertical_" + playerIndex.ToString() );
 
         angle_rad = Mathf.Atan2( y, x );
         
