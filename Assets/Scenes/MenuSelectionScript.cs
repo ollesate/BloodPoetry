@@ -14,12 +14,11 @@ public class MenuSelectionScript : MonoBehaviour
     public int elemAmount = 4;
     public int currSel = 0;
     private float spacing = 40;
+    public GameObject[] MenuItems;
 
     public void Update()
     {
         menuDirSel = GetStepping(Input.GetAxisRaw("Vertical"));
-        Debug.Log(menuDirSel);
-        //Debug.Log(Input.GetAxisRaw("Vertical"));
         currSel += Mathf.RoundToInt(menuDirSel);
         if (currSel < 0)
         {
@@ -35,6 +34,30 @@ public class MenuSelectionScript : MonoBehaviour
         float midVal = (elemAmount / 2) - 0.5f;
         pos.y = (currSel - midVal) * spacing;
         transform.localPosition = pos;
+
+
+        if (Input.GetButton("Fire1"))
+        {
+            if (currSel == 3) //Start
+            {
+                //Application.LoadLevel(1);
+                UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+            }
+            if (currSel == 2) //Options
+            {
+                MenuItems[1].SetActive(true);
+                MenuItems[0].SetActive(false);
+            }
+            if (currSel == 1) //Credits
+            {
+                MenuItems[2].SetActive(true);
+                MenuItems[0].SetActive(false);
+            }
+            if (currSel == 0) //Exit
+            {
+                Application.Quit();
+            }
+        }
     }
 
     public float GetStepping(float direction)
