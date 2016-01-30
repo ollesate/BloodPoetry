@@ -5,18 +5,17 @@ public class MoveMatthiasToMouse : MonoBehaviour {
 
 	Vector3 startPos;
 
+	float lifetime = 8.0f;
+	float rad = 5.0f;
+
 	void Start () {
 		startPos = transform.position;
+		Destroy(transform.parent.gameObject, lifetime);
 	}
 	
-	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		if (Input.GetMouseButton(0) || Input.GetMouseButton(1) )
 		{
-			//Vector3 pos = Input.mousePosition;
-			//pos.z = 0;
-			//transform.position = pos;
-
 			transform.position = startPos;
 			Quaternion rot = Random.rotation;
 			rot.x = 0;
@@ -24,6 +23,21 @@ public class MoveMatthiasToMouse : MonoBehaviour {
 			rot.z = 0;
 			transform.rotation = rot;
 		}
-	
+
+
+		Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, rad);
+		int nowCollidingWith = 0;
+		foreach (Collider2D col in colliders)
+		{
+			if (col.name == "Body")
+			{
+				nowCollidingWith += 1;
+			}
+		}
+		if (nowCollidingWith >= 6)
+		{
+			Destroy(transform.parent.gameObject);
+		}
 	}
+
 }
