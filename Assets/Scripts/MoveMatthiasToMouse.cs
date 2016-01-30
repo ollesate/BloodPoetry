@@ -7,6 +7,7 @@ public class MoveMatthiasToMouse : MonoBehaviour {
 
 	float lifetime = 8.0f;
 	float rad = 5.0f;
+	public ParticleSystem pSBlood;
 
 	void Start () {
 		startPos = transform.position;
@@ -38,6 +39,17 @@ public class MoveMatthiasToMouse : MonoBehaviour {
 		{
 			Destroy(transform.parent.gameObject);
 		}
+		
 	}
 
+	void SpawnBlood()
+	{
+		ParticleSystem ps = ParticleSystem.Instantiate<ParticleSystem>(pSBlood);
+		ps.transform.position = transform.position;
+	}
+
+	void OnDestroy()
+	{
+		SpawnBlood();
+	}
 }

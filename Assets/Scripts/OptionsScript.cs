@@ -3,7 +3,7 @@ using System.Collections;
 
 public class OptionsScript : MonoBehaviour
 {
-
+    public GameObject[] MenuItems;
     enum GoreSettings
     {
         Off,
@@ -24,7 +24,7 @@ public class OptionsScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButton("Action1_1"))
         {
             currGoreSet += 1;
             if (currGoreSet == GoreSettings.MAX)
@@ -33,6 +33,10 @@ public class OptionsScript : MonoBehaviour
             }
         }
         goreSetting.text = currGoreSet.ToString();
-        
+        if (Input.GetButton("Action2_1"))
+        {
+            MenuItems[0].SetActive(true);
+            MenuItems[1].SetActive(false);
+        }
     }
 }

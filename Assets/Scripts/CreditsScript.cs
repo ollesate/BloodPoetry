@@ -7,7 +7,7 @@ public class CreditsScript : MonoBehaviour {
 	
 
 	void Update () {
-		if (Input.GetButton("Fire2"))
+		if (Input.GetButton("Action2_1"))
 		{
 				MenuItems[0].SetActive(true);
 				MenuItems[1].SetActive(false);

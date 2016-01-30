@@ -18,7 +18,7 @@ public class MenuSelectionScript : MonoBehaviour
 
     public void Update()
     {
-        menuDirSel = GetStepping(Input.GetAxisRaw("Vertical"));
+        menuDirSel = GetStepping(Input.GetAxisRaw("LVertical_1"));
         currSel += Mathf.RoundToInt(menuDirSel);
         if (currSel < 0)
         {
@@ -36,7 +36,7 @@ public class MenuSelectionScript : MonoBehaviour
         transform.localPosition = pos;
 
 
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButton("Action1_1"))
         {
             if (currSel == 3) //Start
             {
