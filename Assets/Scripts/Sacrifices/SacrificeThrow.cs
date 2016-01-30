@@ -45,7 +45,7 @@ public class SacrificeThrow : MonoBehaviour {
             GameObject thrown = Instantiate( villagerPrefab );
             thrown.transform.position = gameObject.transform.position;
 
-            thrown.GetComponent<Rigidbody2D>().AddForce( dir * 2, ForceMode2D.Impulse );
+            thrown.GetComponentInChildren<Rigidbody2D>().AddForce( dir * 20, ForceMode2D.Impulse );
             isThrowing = false;
         }
         else if ( isThrowing )
