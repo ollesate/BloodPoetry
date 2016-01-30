@@ -1,25 +1,27 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class SacrificeThrow : MonoBehaviour {
 
     /* Fields */
     public GameObject villagerPrefab;
     public GameObject targetSprite;
+    public int playerIndex;
     public float loadTime;
-    public float powerFactor;
 
-    Player player;
     bool isThrowing;
     float power_newton;
     float angle_rad;
     Vector2 dir;
     float time;
 
-    /* Lifetime Methods */
-    void Start() {
-        player = gameObject.GetComponentInParent<Player>();
+    // Use this for initialization
+    void Start()
+    {
+
     }
 
+    // Update is called once per frame
     void Update()
     {
         if ( time < 1 ) {
@@ -30,36 +32,37 @@ public class SacrificeThrow : MonoBehaviour {
             }
         }
 
-        if (player.isHuman)
+        if ( Input.GetButtonDown( "Action1_" + playerIndex.ToString() ) )
         {
-            if ( player.GetDown( ButtonAction.Green ) )
-            {
-                // Commence
-                isThrowing = true;
-                power_newton = 0;
-                time = 0;
-            }
-            else if ( player.GetUp( ButtonAction.Green ) )
-            {
-                // Complete
-                GameObject thrown = Instantiate( villagerPrefab );
-                thrown.transform.position = gameObject.transform.position;
-
-                thrown.GetComponentInChildren<Rigidbody2D>().AddForce( dir * powerFactor, ForceMode2D.Impulse );
-                isThrowing = false;
-            }
-            else if ( isThrowing )
-            {
-                // Aim
-                dir = power_newton * new Vector2( Mathf.Cos( angle_rad ), Mathf.Sin( angle_rad ) );
-                targetSprite.transform.position = gameObject.transform.position + new Vector3( dir.x, dir.y ) / 5;
-                power_newton = Mathf.Sin( time * Mathf.PI / 2 );
-            }
-
-            float x = player.Get( AxisAction.AimX );
-            float y = player.Get( AxisAction.AimY );
-
-            angle_rad = Mathf.Atan2( y, x );
+            // Commence
+            isThrowing = true;
+            power_newton = 0;
+            time = 0;
         }
+        else if ( Input.GetButtonUp( "Action1_" + playerIndex.ToString() ) )
+        {
+            // Complete
+            GameObject thrown = Instantiate(villagerPrefab);
+            thrown.transform.position = gameObject.transform.position;
+
+            thrown.GetComponentInChildren<Rigidbody2D>().AddForce( dir * 20, ForceMode2D.Impulse );
+            isThrowing = false;
+        }
+        else if ( isThrowing )
+        {
+            // Aim
+            dir = power_newton * new Vector2( Mathf.Cos( angle_rad ), Mathf.Sin( angle_rad ) );
+            targetSprite.transform.position = gameObject.transform.position + new Vector3( dir.x, dir.y ) / 5;
+            power_newton = Mathf.Sin( time * Mathf.PI / 2 );
+
+
+        }
+
+        float x = Input.GetAxisRaw( "LHorizontal_" + playerIndex.ToString() );
+        float y = Input.GetAxisRaw( "LVertical_" + playerIndex.ToString() );
+
+        angle_rad = Mathf.Atan2( y, x );
+        
+        //Debug.Log( angle_rad );
     }
 }
