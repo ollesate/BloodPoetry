@@ -5,6 +5,7 @@ public class PlayState : MonoBehaviour {
 
     /* Fields */
     public bool splitScreen;
+    public bool horizontalSplit;
 
 	// Use this for initialization
 	void Start () {
@@ -20,7 +21,10 @@ public class PlayState : MonoBehaviour {
         float Nreci = 1f / N;
         for ( int i = 0; i != N; ++i )
         {
-            players[i].GetComponentInChildren<Camera>().rect = new Rect( i * Nreci, 0, Nreci, 1 );
+            if (horizontalSplit)
+                players[i].GetComponentInChildren<Camera>().rect = new Rect( 0, i * Nreci, 1, Nreci );
+            else
+                players[i].GetComponentInChildren<Camera>().rect = new Rect( i * Nreci, 0, Nreci, 1 );
         }
 
     }
