@@ -11,6 +11,9 @@ public class PlayerControls : MonoBehaviour {
 	}
 
     void Update() {
-        camera.transform.Translate(Input.GetAxis( "Horizontal " + playerIndex.ToString() ), 0, 0);
+        if (!Input.GetButton("Throw " + playerIndex.ToString()))
+        {
+            camera.transform.Translate( Input.GetAxis( "Horizontal " + playerIndex.ToString() ), 0, 0 );
+        }
     }
 }
