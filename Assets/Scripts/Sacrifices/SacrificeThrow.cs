@@ -48,6 +48,7 @@ public class SacrificeThrow : MonoBehaviour {
 
             thrown.GetComponentInChildren<Rigidbody2D>().AddForce( dir * forceFactor, ForceMode2D.Impulse );
             isThrowing = false;
+            GetComponent<PlaySoundEffect>().PlaySoundAtPos();
         }
         else if ( isThrowing )
         {

@@ -84,6 +84,7 @@ public class WarriorAI : MonoBehaviour
             Debug.Log("Warrior " + warrior.warriorType.ToString() + " attacked another warrior for " + damage);
             target.GetComponent<Health>().TakeDamage(damage);
             attackCooldown = AttackDelay;
+            GetComponent<PlaySoundEffect>().PlayMyAttack();
         }
     }
 
