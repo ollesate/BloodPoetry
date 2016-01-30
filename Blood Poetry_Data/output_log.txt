@@ -1,0 +1,1453 @@
+Mono path[0] = 'C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Blood Poetry_Data/Managed'
+Mono path[1] = 'C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Blood Poetry_Data/Mono'
+Mono config path = 'C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Blood Poetry_Data/Mono/etc'
+PlayerConnection initialized from C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Blood Poetry_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55442
+Multi-casting "[IP] 10.1.24.218 [Port] 55442 [Flags] 3 [Guid] 626763591 [EditorId] 1208550421 [Version] 1048832 [Id] WindowsPlayer(optitop) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [10.1.24.218:55442]...
+PlayerConnection accepted from [10.1.24.218] handle:0x284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56591
+PlayerConnection already initialized - listening to [10.1.24.218:55442]
+Initialize engine version: 5.3.2f1 (e87ab445ead0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 460M    (ID=0xdd1)
+    Vendor:   NVIDIA
+    VRAM:     1483 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.299 seconds
+Platform assembly: C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Blood Poetry_Data\Managed\System.dll (this message is harmless)
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.010999 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Start () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:22 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 22)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1ce4 -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets._2D.Camera2DFollow.Update () [0x00000] in C:\Eget\Programmering\Global Game Jam 2016\Blood Poetry\Blood Poetry\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs:32 
+ 
+(Filename: C:/Eget/Programmering/Global Game Jam 2016/Blood Poetry/Blood Poetry/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs Line: 32)
+
+Waiting for finish
