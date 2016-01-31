@@ -47,7 +47,8 @@ public class SacrificeThrow : MonoBehaviour {
 	// Update is called once per frame
 	void Update()
 	{
-		myPriest.GetComponent<Animator>().SetBool("Throw", false);
+        if (myPriest != null)
+		    myPriest.GetComponent<Animator>().SetBool("Throw", false);
 		if (isUsing)
 		{
 			if ( time < 1 )
