@@ -152,6 +152,11 @@ public class WarriorAI : MonoBehaviour
         {
             //Debug.Log("Warrior detected pyramid");
         }
+        else if (other.tag == "Projectile")
+        {
+            Debug.Log("WE hit SOMETHING");
+            Destroy(gameObject);
+        }
         
     }
 
