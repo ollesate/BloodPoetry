@@ -8,6 +8,7 @@ public enum ButtonAction
     Pause,
     Click,
     ClickBack,
+    Escape,
     NUM
 }
 
@@ -239,7 +240,8 @@ public class ProperInput
             new JoystickButtonMap(JoystickButton.B, playerIndex), // Red,
             new JoystickButtonMap(JoystickButton.Start, playerIndex), // Pause
             new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.A, playerIndex), new KeyboardButtonMap(KeyCode.Return)), //MenuClick
-            new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.B, playerIndex), new KeyboardButtonMap(KeyCode.Backspace)) //MenuClickBack
+            new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.B, playerIndex), new KeyboardButtonMap(KeyCode.Backspace)), //MenuClickBack
+            new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.Start, playerIndex), new KeyboardButtonMap(KeyCode.Escape)) //escape
         };
 
         axes = new IAxisMap[]
