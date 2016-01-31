@@ -55,4 +55,9 @@ public class PlayState : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	}
+
+    public Camera[] GetCameras()
+    {
+        return GetComponentsInChildren<Camera>();
+    }
 }

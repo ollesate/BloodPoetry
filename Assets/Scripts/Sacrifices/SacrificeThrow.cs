@@ -16,11 +16,25 @@ public class SacrificeThrow : MonoBehaviour {
     Vector2 dir;
     float time;
 
+    float minAngle;
+    float maxAngle;
+
     // Use this for initialization
     void Start()
     {
         isUsing = false;
         player = gameObject.GetComponentInParent<Player>();
+
+        if (player.IsLeftPlayer)
+        {
+            minAngle = 0;
+            maxAngle = 5 * Mathf.PI / 12;
+        }
+        else
+        {
+            minAngle = 7 * Mathf.PI / 12;
+            maxAngle = Mathf.PI;
+        }
     }
 
     public void StartUsing()
@@ -32,7 +46,7 @@ public class SacrificeThrow : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (isUsing)
+        if ( isUsing )
         {
             if ( time < 1 )
             {
@@ -56,7 +70,7 @@ public class SacrificeThrow : MonoBehaviour {
                 player.SetState( Player.State.Idle );
                 isUsing = false;
                 GetComponent<Fading>().FadeOut();
-				GetComponent<PlaySoundEffect>().PlaySoundAtPos();
+                GetComponent<PlaySoundEffect>().PlaySoundAtPos();
             }
             else
             {
@@ -69,7 +83,19 @@ public class SacrificeThrow : MonoBehaviour {
             float x = player.Get( AxisAction.AimX );
             float y = player.Get( AxisAction.AimY );
 
-            angle_rad = Mathf.Atan2( y, x );
+            if ( x < 0.01f && y < 0.01f )
+            {
+                if ( player.IsLeftPlayer )
+                    angle_rad = 0;
+                else
+                    angle_rad = Mathf.PI;
+            }
+            else
+            {
+                angle_rad = Mathf.Atan2( y, x );
+            }
+
+            angle_rad = Mathf.Clamp( angle_rad, minAngle, maxAngle );
         }
     }
 }

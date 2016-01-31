@@ -19,6 +19,9 @@ public class Player : MonoBehaviour {
         NUM
     }
 
+    /* Properties */
+    public bool IsLeftPlayer { get { return transform.position.x < 0; } }
+
     /* Fields */
     public bool isHuman;
     public int playerIndex;
@@ -27,6 +30,7 @@ public class Player : MonoBehaviour {
     ProperInput input;
     State state;
     SacrificeThrow throwing;
+
     private QueueSystem queueSystem;
     private ArmySpawner armySpawner;
     private DivineBuffs divineBuffs;
@@ -72,7 +76,7 @@ public class Player : MonoBehaviour {
                 {
                     // Choose fate
                     if (!choicemaker.isUsing)
-                        choicemaker.StartUsing();
+                        choicemaker.StartUsing(ChoiceType.Fate);
                     
                     Choicemaker.Choice choice = choicemaker.Poll();
                     if (choice != Choicemaker.Choice.None)
@@ -108,7 +112,7 @@ public class Player : MonoBehaviour {
                 {
                     // Update display of choice-thingy; show sacrifice paths.
                     if ( !choicemaker.isUsing )
-                        choicemaker.StartUsing();
+                        choicemaker.StartUsing(ChoiceType.Sacrifice);
 
                     Choicemaker.Choice choice = choicemaker.Poll();
                     if ( choice != Choicemaker.Choice.None )
@@ -155,7 +159,7 @@ public class Player : MonoBehaviour {
                 {
                     // Update display of choice-thingy; show soldier paths.
                     if ( !choicemaker.isUsing )
-                        choicemaker.StartUsing();
+                        choicemaker.StartUsing(ChoiceType.Soldier);
 
                     Choicemaker.Choice choice = choicemaker.Poll();
                     if ( choice != Choicemaker.Choice.None )

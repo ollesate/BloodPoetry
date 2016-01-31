@@ -16,15 +16,22 @@ public class Choicemaker : MonoBehaviour {
 
     Player player;
 
+    ButtonChoice[] choiceButtons;
+
     /* Methods */
 	void Start () {
         player = gameObject.GetComponentInParent<Player>();
         player.choicemaker = this;
         isUsing = false;
+        choiceButtons = GetComponentsInChildren<ButtonChoice>();
 	}
 
-    public void StartUsing()
+    public void StartUsing(ChoiceType type)
     {
+        foreach (var btn in choiceButtons)
+        {
+            btn.SelectSprite( type );
+        }
         isUsing = true;
         GetComponent<Fading>().FadeIn();
     }
