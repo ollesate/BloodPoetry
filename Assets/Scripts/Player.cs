@@ -32,10 +32,15 @@ public class Player : MonoBehaviour {
 	private ArmySpawner armySpawner;
 	private DivineBuffs divineBuffs;
 
+    public void GameOver()
+    {
+        Debug.Log("GameOver!!!");
+    }
+
 	/* Lifetime Methods */
 	void Start () {
 		input = new ProperInput( playerIndex );
-		state = State.Idle;
+		state = State.Idle; 
 		throwing = GetComponentInChildren<SacrificeThrow>();
 		armySpawner = GetComponentInChildren<ArmySpawner>();
 		queueSystem = GetComponentInChildren<QueueSystem>();
