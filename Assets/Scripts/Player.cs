@@ -19,8 +19,11 @@ public class Player : MonoBehaviour {
 		NUM
 	}
 
-	/* Fields */
-	public bool isHuman;
+    /* Properties */
+    public bool IsLeftPlayer { get { return transform.position.x < 0; } }
+
+    /* Fields */
+    public bool isHuman;
 	public int playerIndex;
 	public Choicemaker choicemaker;
 	public GameObject myPriest;
@@ -36,22 +39,6 @@ public class Player : MonoBehaviour {
     {
         Debug.Log("GameOver!!!");
     }
-
-    /* Properties */
-    public bool IsLeftPlayer { get { return transform.position.x < 0; } }
-
-    /* Fields */
-    public bool isHuman;
-    public int playerIndex;
-    public Choicemaker choicemaker;
-
-    ProperInput input;
-    State state;
-    SacrificeThrow throwing;
-
-    private QueueSystem queueSystem;
-    private ArmySpawner armySpawner;
-    private DivineBuffs divineBuffs;
 
     /* Lifetime Methods */
     void Start () {
@@ -94,7 +81,7 @@ public class Player : MonoBehaviour {
 				{
 					// Choose fate
 					if (!choicemaker.isUsing)
-						choicemaker.StartUsing();
+						choicemaker.StartUsing(ChoiceType.Fate);
 					
 					Choicemaker.Choice choice = choicemaker.Poll();
 					if (choice != Choicemaker.Choice.None)
@@ -131,7 +118,7 @@ public class Player : MonoBehaviour {
 					// Update display of choice-thingy; show sacrifice paths.
 					if (!choicemaker.isUsing)
 					{ 
-						choicemaker.StartUsing();
+						choicemaker.StartUsing(ChoiceType.Sacrifice);
 					}
 					Choicemaker.Choice choice = choicemaker.Poll();
 					if ( choice != Choicemaker.Choice.None )
@@ -174,33 +161,15 @@ public class Player : MonoBehaviour {
 				}
 				break;
 
-            /* Divine fates */
-            case State.ChoosingDivineFate:
+            /* Soldier fates */
+            case State.ChoosingSoldierFate:
                 {
-                    // Update display of choice-thingy; show sacrifice paths.
+                    // Update display of choice-thingy; show soldier paths.
                     if ( !choicemaker.isUsing )
-                        choicemaker.StartUsing(ChoiceType.Sacrifice);
-
-					Choicemaker.Choice choice = choicemaker.Poll();
-					if ( choice != Choicemaker.Choice.None )
-					{
-						queueSystem.SacrificeVillagerDestroy();
-						switch ( choice )
-						{
-							case Choicemaker.Choice.Blue:
-								state = State.RecruitingSpearman;
-								break;
-							case Choicemaker.Choice.Green:
-								state = State.RecruitingBlowgunner;
-								break;
-							case Choicemaker.Choice.Red:
-								state = State.RecruitingClubman;
-								break;
-						}
-					}
-				}
-				break;
-			case State.RecruitingBlowgunner:
+                        choicemaker.StartUsing( ChoiceType.Soldier );
+                }
+                break;
+            case State.RecruitingBlowgunner:
 				{
 					// Recruit Blowgunner.
 					reqruitBlowgunner();
@@ -224,12 +193,7 @@ public class Player : MonoBehaviour {
 		}
 	}
 
-                /* Soldier fates */
-            case State.ChoosingSoldierFate:
-                {
-                    // Update display of choice-thingy; show soldier paths.
-                    if ( !choicemaker.isUsing )
-                        choicemaker.StartUsing(ChoiceType.Soldier);
+             
 	public void SetState(State state)
 	{
 		this.state = state;
