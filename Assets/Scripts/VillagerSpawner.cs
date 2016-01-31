@@ -5,7 +5,7 @@ public class VillagerSpawner : MonoBehaviour
 {
 
     public GameObject villagerPrefab;
-    public float Cooldown = 5.0f;
+    public float Cooldown = 20.0f;
     public float increasedSpawnedRate = 0.0f;
     public float FertiltyBuffRate = 0.1f;
 
@@ -45,7 +45,8 @@ public class VillagerSpawner : MonoBehaviour
     void SpawnVillager()
     {
         GameObject villager = Instantiate(villagerPrefab);
-        villager.transform.position = transform.position;
+        villager.transform.parent = transform;
+        villager.transform.position = new Vector3(transform.position.x, transform.position.y, -.1f);
 
         if (dir == DirEnum.Left)
         {

@@ -125,7 +125,7 @@ public class QueueSystem : MonoBehaviour {
     {
         if (isSpotEmpty(toStep) && queuePlaces[index].hasWaited() && queuePlaces[index].CanJump)
         {
-            queuePlaces[index].villager.transform.position = allSteps[toStep].transform.position - new Vector3(allSteps[toStep].bounds.extents.x*2f, 0);
+            queuePlaces[index].villager.transform.position = new Vector3(allSteps[toStep].transform.position.x, allSteps[toStep].transform.position.y, -0.1f);
             queuePlaces[toStep] = new QueueParticipant(queuePlaces[index].villager);
             queuePlaces[index] = null;
         }

@@ -10,7 +10,7 @@ public class SacrificeThrow : MonoBehaviour {
     public float forceFactor;
 
     Player player;
-    bool isUsing;
+    public bool isUsing;
     float power_newton;
     float angle_rad;
     Vector2 dir;

@@ -29,9 +29,10 @@ public class ArmySpawner : MonoBehaviour {
 
 	}
 
-	void SpawnUnit(Warrior.WarriorType type)
+	public void SpawnUnit(Warrior.WarriorType type)
 	{
 		GameObject unit = Instantiate(armyPrefabs[(int)type]);
+        unit.transform.parent = transform;
 		unit.transform.position = transform.position;
 
 		if (dir == DirEnum.Left)

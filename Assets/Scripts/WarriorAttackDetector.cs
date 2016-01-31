@@ -24,6 +24,9 @@ public class WarriorAttackDetector : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Warrior") OnTriggerListener(other);
+        if (other.gameObject.tag == "Warrior" && 
+            other.gameObject.GetComponentInParent<Player>().playerIndex != gameObject.GetComponentInParent<Player>().playerIndex) OnTriggerListener(other);
+
+        if (other.gameObject.tag == "Pyramid") OnTriggerListener(other);
     }
 }

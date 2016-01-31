@@ -27,12 +27,26 @@ public class Player : MonoBehaviour {
     ProperInput input;
     State state;
     SacrificeThrow throwing;
+    private QueueSystem queueSystem;
+    private ArmySpawner armySpawner;
+    private DivineBuffs divineBuffs;
 
     /* Lifetime Methods */
     void Start () {
         input = new ProperInput( playerIndex );
         state = State.Idle;
         throwing = GetComponentInChildren<SacrificeThrow>();
+        armySpawner = GetComponentInChildren<ArmySpawner>();
+        queueSystem = GetComponentInChildren<QueueSystem>();
+        divineBuffs = GetComponent<DivineBuffs>();
+        if(queueSystem == null)
+        {
+            Debug.Log("No Queuesystem is added to pyramid");
+        }
+        if (armySpawner == null)
+        {
+            Debug.Log("Armyspawner is null");
+        }
 	}
 
     void Update() {
@@ -46,8 +60,12 @@ public class Player : MonoBehaviour {
         {
             case State.Idle:
                 {
+                    if (queueSystem.CanSacrificeVillager())
+                    {
+                        state = State.ChoosingFate;
+                    }
                     // Check queue for people.
-                    state = State.ChoosingFate;
+                    
                 }
                 break;
             case State.ChoosingFate:
@@ -76,8 +94,12 @@ public class Player : MonoBehaviour {
                 break;
             case State.Throwing:
                 {
-                    // Start throwing person.
-                    throwing.StartUsing();
+                    if(throwing.isUsing == false)
+                    {
+                        queueSystem.SacrificeVillagerDestroy();
+                        // Start throwing person.
+                        throwing.StartUsing();
+                    }
                 }
                 break;
 
@@ -91,6 +113,7 @@ public class Player : MonoBehaviour {
                     Choicemaker.Choice choice = choicemaker.Poll();
                     if ( choice != Choicemaker.Choice.None )
                     {
+                        queueSystem.SacrificeVillagerDestroy();
                         switch ( choice )
                         {
                             case Choicemaker.Choice.Blue:
@@ -109,6 +132,7 @@ public class Player : MonoBehaviour {
             case State.SacrificingForFertility:
                 {
                     // Increase City Fertility
+                    divineBuffs.BuffFertility();
                     state = State.Idle;
                 }
                 break;
@@ -121,6 +145,7 @@ public class Player : MonoBehaviour {
             case State.SacrificingForPower:
                 {
                     // Increase Soldier Strength.
+                    divineBuffs.BuffPower();
                     state = State.Idle;
                 }
                 break;
@@ -135,6 +160,7 @@ public class Player : MonoBehaviour {
                     Choicemaker.Choice choice = choicemaker.Poll();
                     if ( choice != Choicemaker.Choice.None )
                     {
+                        queueSystem.SacrificeVillagerDestroy();
                         switch ( choice )
                         {
                             case Choicemaker.Choice.Blue:
@@ -153,18 +179,21 @@ public class Player : MonoBehaviour {
             case State.RecruitingBlowgunner:
                 {
                     // Recruit Blowgunner.
+                    reqruitBlowgunner();
                     state = State.Idle;
                 }
                 break;
             case State.RecruitingClubman:
                 {
                     // Recruit Clubman.
+                    reqruitClubman();
                     state = State.Idle;
                 }
                 break;
             case State.RecruitingSpearman:
                 {
                     // Recruit Spearman.
+                    reqruitSpearman();
                     state = State.Idle;
                 }
                 break;
@@ -174,6 +203,45 @@ public class Player : MonoBehaviour {
     public void SetState(State state)
     {
         this.state = state;
+    }
+
+    private void reqruitSpearman()
+    {
+        if(armySpawner != null)
+        {
+            armySpawner.SpawnUnit(Warrior.WarriorType.SPEAR);
+            Debug.Log("Spawning a spearman");
+        }
+        else
+        {
+
+        }
+    }
+
+    private void reqruitClubman()
+    {
+        if (armySpawner != null)
+        {
+            armySpawner.SpawnUnit(Warrior.WarriorType.CLUB);
+            Debug.Log("Spawning a clubman");
+        }
+        else
+        {
+
+        }
+    }
+
+    private void reqruitBlowgunner()
+    {
+        if (armySpawner != null)
+        {
+            Debug.Log("Spawning a blowgunner");
+            armySpawner.SpawnUnit(Warrior.WarriorType.BLOWGUN);
+        }
+        else
+        {
+
+        }
     }
     
     /* Methods */
