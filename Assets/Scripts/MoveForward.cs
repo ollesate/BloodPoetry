@@ -39,4 +39,13 @@ public class MoveForward : MonoBehaviour {
         animator.SetInteger("State", 1);
         stopped = false;
     }
+
+    void OnDestroy()
+    {
+        VillagerSpawner spawner = GetComponentInParent<VillagerSpawner>();
+        if(spawner != null)
+        {
+            spawner.VillagerDied();
+        }
+    }
 }
