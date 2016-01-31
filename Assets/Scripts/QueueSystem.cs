@@ -8,24 +8,62 @@ public class QueueSystem : MonoBehaviour {
     private QueueParticipant[] queuePlaces;
     private float updateCooldown;
     private float updateDelay = .1f;
+    private int stepLength;
 
     public GameObject PlaceholderSpawn;
 
 	// Use this for initialization
 	void Start () {
         allSteps = GetComponentsInChildren<BoxCollider2D>();
+        stepLength = allSteps.Length;
         queuePlaces = new QueueParticipant[allSteps.Length];
         for(int i = 0; i < allSteps.Length; i++)
         {
             BoxCollider2D box = allSteps[i];
         }
         updateCooldown = updateDelay;
-
     }
 
     public bool CanJoinQueue()
     {
         return queuePlaces[queuePlaces.Length - 1] == null;
+    }
+
+    private int getIndexOfStep(BoxCollider2D box)
+    {
+        for(int i = 0; i < allSteps.Length; i++)
+        {
+            if(allSteps[i] == box)
+            {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public bool JoinQueueAtStep(GameObject gameObj, BoxCollider2D box)
+    {
+        int stepIndex = getIndexOfStep(box);
+        QueueParticipant queuePlace = queuePlaces[stepIndex];
+        if(queuePlace == null && stepIndex < stepLength)
+        {
+            stopVillager(gameObj);
+            queuePlaces[stepIndex] = new QueueParticipant(gameObj);
+            return true;
+        }
+        return false;
+    }
+
+    public void DestroyStep()
+    {
+        int lastStep = stepLength - 1;
+        if (queuePlaces[lastStep] != null)
+        {
+            GameObject releaseVillager = queuePlaces[lastStep].villager;
+            startVillager(releaseVillager);
+            queuePlaces[lastStep] = null;
+        }
+        stepLength--;
     }
 
     public void JoinQueue(GameObject gameObj)
@@ -39,12 +77,21 @@ public class QueueSystem : MonoBehaviour {
 
     private void stopVillager(GameObject gameObj)
     {
-        gameObj.GetComponent<MoveForward>().Speed = 0;
-        gameObj.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+        gameObj.GetComponent<MoveForward>().Stop();
+    }
+
+    private void startVillager(GameObject gameObj)
+    {
+        gameObj.GetComponent<MoveForward>().Go();
     }
 	
 	// Update is called once per frame
 	void Update () {
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            SacrificeVillagerDestroy();
+        }
 
         foreach(QueueParticipant participant in queuePlaces)
         {
@@ -78,7 +125,7 @@ public class QueueSystem : MonoBehaviour {
     {
         if (isSpotEmpty(toStep) && queuePlaces[index].hasWaited() && queuePlaces[index].CanJump)
         {
-            queuePlaces[index].villager.transform.position = allSteps[toStep].transform.position;
+            queuePlaces[index].villager.transform.position = allSteps[toStep].transform.position - new Vector3(allSteps[toStep].bounds.extents.x*2f, 0);
             queuePlaces[toStep] = new QueueParticipant(queuePlaces[index].villager);
             queuePlaces[index] = null;
         }
@@ -115,7 +162,10 @@ public class QueueSystem : MonoBehaviour {
     {
         QueueParticipant sacrifice = queuePlaces[0];
         queuePlaces[0] = null;
-        Destroy(sacrifice.villager);
+        if(sacrifice != null)
+        {
+            Destroy(sacrifice.villager);
+        }
     }
 
 

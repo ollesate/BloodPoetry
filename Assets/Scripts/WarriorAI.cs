@@ -20,6 +20,8 @@ public class WarriorAI : MonoBehaviour
     private Rigidbody2D mRigidbody;
     private Health mHealth;
     private WarriorAttackDetector mAttackBox;
+    private DivineBuffs mDivineBuffs;
+    private bool hasDivineIntervention;
 
     // Use this for initialization
     void Start()
@@ -47,6 +49,16 @@ public class WarriorAI : MonoBehaviour
     {
         mAttackBox = GetComponentInChildren<WarriorAttackDetector>();
         mAttackBox.OnTriggerListener += (other) => enemyDetected(other);
+        mDivineBuffs = GetComponentInParent<DivineBuffs>();
+        if(mDivineBuffs != null)
+        {
+            mDivineBuffs.OnBuffListener += (buff) => onReceivedBuff(buff);
+            mDivineBuffs.OnBuffFade += (buff) => onBuffFade(buff);
+        } else
+        {
+            Debug.Log("Did you forget to set DivineBuffs Script in player or maybe Warrior isnt spawned as a minion to player");
+        }
+        
     }
 
     // Update is called once per frame
@@ -81,7 +93,7 @@ public class WarriorAI : MonoBehaviour
         if (attackCooldown <= 0)
         {
             float damage = getModifiedDamage(target.gameObject.GetComponent<WarriorAI>().warrior);
-            Debug.Log("Warrior " + warrior.warriorType.ToString() + " attacked another warrior for " + damage);
+            //Debug.Log("Warrior " + warrior.warriorType.ToString() + " attacked another warrior for " + damage);
             target.GetComponent<Health>().TakeDamage(damage);
             attackCooldown = AttackDelay;
             GetComponent<PlaySoundEffect>().PlayMyAttack();
@@ -91,18 +103,36 @@ public class WarriorAI : MonoBehaviour
     void enemyDetected(Collider2D other)
     {
         target = other.gameObject;
-        Debug.Log(warrior.warriorType.ToString() + " Warrior detected a " + target.GetComponent<WarriorAI>().WarriorType.ToString() + " Warrior");
+        //Debug.Log(warrior.warriorType.ToString() + " Warrior detected a " + target.GetComponent<WarriorAI>().WarriorType.ToString() + " Warrior");
         
     }
 
     float getModifiedDamage(Warrior other)
     {
-        if (warrior.StrongAgainst() == other.warriorType)
+        if (warrior.StrongAgainst() == other.warriorType || hasDivineIntervention   )
         {
             return AttackDamage * 2;
         }
 
         return AttackDamage;
+    }
+
+    private void onReceivedBuff(DivineBuffs.BuffType buff)
+    {
+        if(buff == DivineBuffs.BuffType.POWER)
+        {
+            Debug.Log("Warrior received divinte intervention");
+            hasDivineIntervention = true;
+        }
+    }
+
+    private void onBuffFade(DivineBuffs.BuffType buff)
+    {
+        if (buff == DivineBuffs.BuffType.POWER)
+        {
+            Debug.Log("Divinte intervention faded from warrior");
+            hasDivineIntervention = false;
+        }
     }
 
 }

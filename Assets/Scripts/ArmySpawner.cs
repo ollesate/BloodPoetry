@@ -5,14 +5,6 @@ public class ArmySpawner : MonoBehaviour {
 
 	public GameObject[] armyPrefabs = new GameObject[3];
 
-	public enum UnitEnum
-	{
-		BlowGun,
-		Club,
-		Spear
-	}
-	public UnitEnum unitType = UnitEnum.Club;
-
 	public enum DirEnum
 	{
 		Left, 
@@ -24,20 +16,20 @@ public class ArmySpawner : MonoBehaviour {
 
 		if (Input.GetKeyUp(KeyCode.Alpha1))
 		{
-			SpawnUnit(unitType);	
+			SpawnUnit(Warrior.WarriorType.CLUB);	
 		}
 		if (Input.GetKeyUp(KeyCode.Alpha2))
 		{
-			SpawnUnit(UnitEnum.BlowGun);
+			SpawnUnit(Warrior.WarriorType.BLOWGUN);
 		}
 		if (Input.GetKeyUp(KeyCode.Alpha3))
 		{
-			SpawnUnit(UnitEnum.Spear);
+			SpawnUnit(Warrior.WarriorType.SPEAR);
 		}
 
 	}
 
-	void SpawnUnit(UnitEnum type)
+	void SpawnUnit(Warrior.WarriorType type)
 	{
 		GameObject unit = Instantiate(armyPrefabs[(int)type]);
 		unit.transform.position = transform.position;
