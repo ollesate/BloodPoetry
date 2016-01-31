@@ -18,15 +18,38 @@ public class PlayState : MonoBehaviour {
                 ++N;
         }
 
+        if ( N == 2 )
+            splitScreen = true;
+
+
         float Nreci = 1f / N;
         for ( int i = 0; i != N; ++i )
         {
-            if (horizontalSplit)
-                players[i].GetComponentInChildren<Camera>().rect = new Rect( 0, i * Nreci, 1, Nreci );
-            else
-                players[i].GetComponentInChildren<Camera>().rect = new Rect( i * Nreci, 0, Nreci, 1 );
-        }
+            float border = (N == 2 ? 0.005f : 0);
 
+            if (horizontalSplit)
+            {
+                if (i == 0)
+                {
+                    players[i].GetComponentInChildren<Camera>().rect = new Rect( 0, 0, 1, Nreci - border / 2 );
+                }
+                else
+                {
+                    players[i].GetComponentInChildren<Camera>().rect = new Rect( 0, Nreci + border / 2, 1, Nreci - border / 2 );
+                }
+            }
+            else
+            {
+                if (i == 0)
+                {
+                    players[i].GetComponentInChildren<Camera>().rect = new Rect( 0, 0, Nreci - border / 2, 1 );
+                }
+                else
+                {
+                    players[i].GetComponentInChildren<Camera>().rect = new Rect( Nreci + border / 2, 0, Nreci - border / 2, 1 );
+                }
+            }
+        }
     }
 	
 	// Update is called once per frame
