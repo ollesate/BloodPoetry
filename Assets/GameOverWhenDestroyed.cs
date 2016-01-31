@@ -13,8 +13,8 @@ public class GameOverWhenDestroyed : MonoBehaviour {
 	
 	}
 
-    void OnDestroy()
-    {
-        GetComponentInParent<Player>().GameOver();
-    }
+    //void OnDestroy()
+    //{
+    //    GetComponentInParent<Player>().GameOver();
+    //}
 }

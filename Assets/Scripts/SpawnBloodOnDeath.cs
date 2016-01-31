@@ -62,9 +62,9 @@ public class SpawnBloodOnDeath : MonoBehaviour
 		ps.emission.SetBursts(burritos);
 	}
 
-	void OnDestroy()
-	{
-		GetComponent<PlaySoundEffect>().PlaySoundAtPos();
-		SpawnBlood();
-	}
+	//void OnDestroy()
+	//{
+	//	GetComponent<PlaySoundEffect>().PlaySoundAtPos();
+	//	SpawnBlood();
+	//}
 }

@@ -167,6 +167,23 @@ public class Player : MonoBehaviour {
                     // Update display of choice-thingy; show soldier paths.
                     if ( !choicemaker.isUsing )
                         choicemaker.StartUsing( ChoiceType.Soldier );
+
+                    Choicemaker.Choice choice = choicemaker.Poll();
+                    if ( choice != Choicemaker.Choice.None )
+                    {
+                        switch ( choice )
+                        {
+                            case Choicemaker.Choice.Blue:
+                                state = State.RecruitingSpearman;
+                                break;
+                            case Choicemaker.Choice.Green:
+                                state = State.RecruitingBlowgunner;
+                                break;
+                            case Choicemaker.Choice.Red:
+                                state = State.RecruitingClubman;
+                                break;
+                        }
+                    }
                 }
                 break;
             case State.RecruitingBlowgunner:
