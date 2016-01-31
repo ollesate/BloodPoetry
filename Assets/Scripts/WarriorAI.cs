@@ -61,7 +61,7 @@ public class WarriorAI : MonoBehaviour
         }
         else
         {
-            Debug.Log("Did you forget to set DivineBuffs Script in player or maybe Warrior isnt spawned as a minion to player");
+            //Debug.Log("Did you forget to set DivineBuffs Script in player or maybe Warrior isnt spawned as a minion to player");
         }
     }
 
@@ -117,10 +117,26 @@ public class WarriorAI : MonoBehaviour
         if (attackCooldown <= 0)
         {
             animator.SetInteger("State", 2);
-            float damage = getModifiedDamage(target.gameObject.GetComponent<WarriorAI>().warrior);
+            float damage = 1f;
+            if(target.gameObject.tag == "Warrior")
+            {
+                damage = getModifiedDamage(target.gameObject.GetComponent<WarriorAI>().warrior);
+            }
             //Debug.Log("Warrior " + warrior.warriorType.ToString() + " attacked another warrior for " + damage);
-            target.GetComponent<Health>().TakeDamage(damage);
+            object[] parms = new object[1] { damage};
+            StartCoroutine("attackWithDelay", parms);
+            //target.GetComponent<Health>().TakeDamage(damage, gameObject);
             attackCooldown = AttackDelay;
+            
+        }
+    }
+
+    IEnumerator attackWithDelay(object[] parms)
+    {
+        yield return new WaitForSeconds(1.0f);
+        float damage = (float)parms[0];
+        if(target != null) { 
+            target.GetComponent<Health>().TakeDamage(damage, gameObject);
             GetComponent<PlaySoundEffect>().PlayMyAttack();
         }
     }
@@ -134,7 +150,7 @@ public class WarriorAI : MonoBehaviour
         }
         else if (other.tag == "Pyramid")
         {
-            Debug.Log("Warrior detected pyramid");
+            //Debug.Log("Warrior detected pyramid");
         }
         
     }
@@ -153,7 +169,7 @@ public class WarriorAI : MonoBehaviour
     {
         if(buff == DivineBuffs.BuffType.POWER)
         {
-            Debug.Log("Warrior received divinte intervention"); 
+            //Debug.Log("Warrior received divinte intervention"); 
             hasDivineIntervention = true;
             powerupEffect.Play();
         }
@@ -163,7 +179,7 @@ public class WarriorAI : MonoBehaviour
     {
         if (buff == DivineBuffs.BuffType.POWER)
         {
-            Debug.Log("Divinte intervention faded from warrior");
+            //Debug.Log("Divinte intervention faded from warrior");
             hasDivineIntervention = false;
             powerupEffect.Stop();
             powerupEffect.Clear();

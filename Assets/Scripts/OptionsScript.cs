@@ -105,6 +105,7 @@ public class OptionsScript : MonoBehaviour
             }
             if (currSel == 0) //Back
             {
+                MenuItems[0].GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("MVolume");
                 MenuItems[0].SetActive(true);
                 MenuItems[1].SetActive(false);
             }
