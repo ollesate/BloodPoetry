@@ -117,9 +117,13 @@ public class WarriorAI : MonoBehaviour
         if (attackCooldown <= 0)
         {
             animator.SetInteger("State", 2);
-            float damage = getModifiedDamage(target.gameObject.GetComponent<WarriorAI>().warrior);
+            float damage = 1f;
+            if(target.gameObject.tag == "Warrior")
+            {
+                damage = getModifiedDamage(target.gameObject.GetComponent<WarriorAI>().warrior);
+            }
             //Debug.Log("Warrior " + warrior.warriorType.ToString() + " attacked another warrior for " + damage);
-            target.GetComponent<Health>().TakeDamage(damage);
+            target.GetComponent<Health>().TakeDamage(damage, gameObject);
             attackCooldown = AttackDelay;
             GetComponent<PlaySoundEffect>().PlayMyAttack();
         }

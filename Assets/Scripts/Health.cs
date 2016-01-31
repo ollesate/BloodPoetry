@@ -3,10 +3,11 @@ using System.Collections;
 
 public class Health : MonoBehaviour
 {
+    public delegate void EventHandler(float damage, GameObject damager);
+    public event EventHandler OnTakeDamage;
 
     public float StartHealth = 3.0f;
     public float DeathDelay = 0.0f;
-
     public float currentHealth;
 
     // Use this for initialization
@@ -21,12 +22,13 @@ public class Health : MonoBehaviour
 
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(float damage, GameObject damageUser)
     {
         currentHealth -= damage;
         if(currentHealth <= 0)
         {
             GameObject.Destroy(gameObject, DeathDelay);
         }
+        OnTakeDamage(damage, damageUser);
     }
 }
