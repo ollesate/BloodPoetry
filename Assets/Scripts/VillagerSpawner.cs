@@ -5,12 +5,14 @@ public class VillagerSpawner : MonoBehaviour
 {
 
     public GameObject villagerPrefab;
-    public float Cooldown = 20.0f;
+    private float Cooldown = 7.0f;
     public float increasedSpawnedRate = 0.0f;
     public float FertiltyBuffRate = 0.1f;
 
     private float currentCooldown;
     private DivineBuffs mDivineBuffs;
+    private int maxSpawns = 35;
+    private int currentSpawns;
 
     public enum DirEnum
     {
@@ -44,16 +46,25 @@ public class VillagerSpawner : MonoBehaviour
 
     void SpawnVillager()
     {
-        GameObject villager = Instantiate(villagerPrefab);
-        villager.transform.parent = transform;
-        villager.transform.position = new Vector3(transform.position.x, transform.position.y, -.1f);
-
-        if (dir == DirEnum.Left)
+        if(currentSpawns <= maxSpawns)
         {
-            villager.GetComponent<MoveForward>().Speed *= -1;
-        }
+            GameObject villager = Instantiate(villagerPrefab);
+            villager.transform.parent = transform;
+            villager.transform.position = new Vector3(transform.position.x, transform.position.y, -.1f);
 
-        villager.tag = "Villager";
+            if (dir == DirEnum.Left)
+            {
+                villager.GetComponent<MoveForward>().Speed *= -1;
+            }
+
+            villager.tag = "Villager";
+            currentSpawns++;
+        }
+    }
+
+    public void VillagerDied()
+    {
+        currentSpawns--;
     }
 
     void onReceiveBuff(DivineBuffs.BuffType buff)
