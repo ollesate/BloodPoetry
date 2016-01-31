@@ -183,6 +183,7 @@ public class Player : MonoBehaviour {
                                 state = State.RecruitingClubman;
                                 break;
                         }
+                        queueSystem.SacrificeVillagerDestroy();
                     }
                 }
                 break;
