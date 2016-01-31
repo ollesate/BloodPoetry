@@ -12,12 +12,19 @@ public class DestroyablePyramid : MonoBehaviour {
     public BoxCollider2D MeasureHeight;
     public int Steps;
 
+    private float xSteps = 13;
+    private float currentXSteps;
+    private float startSize;
 	// Use this for initialization
 	void Start () {
+        mBoxCollider = GetComponent<BoxCollider2D>();
+        startSize = mBoxCollider.size.x;
         health = GetComponent<Health>();
+        health.ShouldDestroy = false;
         health.OnTakeDamage += (damage, damager) => Attack(damager);
         mQueueSystem = GetComponentInChildren<QueueSystem>();
         stepHeight = MeasureHeight.bounds.extents.y;
+        currentXSteps = xSteps;
     }
 	
 	// Update is called once per frame
@@ -30,9 +37,23 @@ public class DestroyablePyramid : MonoBehaviour {
 
     public void Attack(GameObject gameObject)
     {
-        pushDownPyramid();
-        mQueueSystem.DestroyStep();
-        Destroy(gameObject, .5f);
+        if(health.currentHealth > 0)
+        {
+            pushDownPyramid();
+            mQueueSystem.DestroyStep();
+            gameObject.GetComponent<WarriorAI>().target = null;
+            Destroy(gameObject, .2f);
+            if(--currentXSteps != 0)
+            {
+                mBoxCollider.size = new Vector2((currentXSteps/xSteps) * startSize, mBoxCollider.size.y);
+            }
+            
+        } else
+        {
+            this.gameObject.tag = "Untagged";
+            gameObject.GetComponent<WarriorAI>().target = null;
+        }
+
     }
 
     private void pushDownPyramid()

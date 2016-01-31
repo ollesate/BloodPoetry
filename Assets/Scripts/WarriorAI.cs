@@ -123,8 +123,20 @@ public class WarriorAI : MonoBehaviour
                 damage = getModifiedDamage(target.gameObject.GetComponent<WarriorAI>().warrior);
             }
             //Debug.Log("Warrior " + warrior.warriorType.ToString() + " attacked another warrior for " + damage);
-            target.GetComponent<Health>().TakeDamage(damage, gameObject);
+            object[] parms = new object[1] { damage};
+            StartCoroutine("attackWithDelay", parms);
+            //target.GetComponent<Health>().TakeDamage(damage, gameObject);
             attackCooldown = AttackDelay;
+            
+        }
+    }
+
+    IEnumerator attackWithDelay(object[] parms)
+    {
+        yield return new WaitForSeconds(1.0f);
+        float damage = (float)parms[0];
+        if(target != null) { 
+            target.GetComponent<Health>().TakeDamage(damage, gameObject);
             GetComponent<PlaySoundEffect>().PlayMyAttack();
         }
     }
