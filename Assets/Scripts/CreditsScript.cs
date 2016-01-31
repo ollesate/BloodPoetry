@@ -13,7 +13,7 @@ public class CreditsScript : MonoBehaviour {
 	}
 
 	void Update () {
-		GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("MVolume");
+		//GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("MVolume");
 		if (pIn.GetDown(ButtonAction.Green) || pIn.GetDown(ButtonAction.Red))
 		{
 				MenuItems[0].SetActive(true);
