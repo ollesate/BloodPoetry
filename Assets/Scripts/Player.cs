@@ -138,13 +138,13 @@ public class Player : MonoBehaviour {
                         switch ( choice )
                         {
                             case Choicemaker.Choice.Blue:
-                                state = State.RecruitingBlowgunner;
+                                state = State.RecruitingSpearman;
                                 break;
                             case Choicemaker.Choice.Green:
-                                state = State.RecruitingClubman;
+                                state = State.RecruitingBlowgunner;
                                 break;
                             case Choicemaker.Choice.Red:
-                                state = State.RecruitingSpearman;
+                                state = State.RecruitingClubman;
                                 break;
                         }
                     }

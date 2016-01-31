@@ -117,12 +117,7 @@ public class Fading : MonoBehaviour
 				rendererObjects[i].enabled = false; 
 			}
 		}
- 
- 
-		Debug.Log ("fade sequence end : " + fadingOut); 
- 
 	}
- 
  
 	public void FadeIn ()
 	{
