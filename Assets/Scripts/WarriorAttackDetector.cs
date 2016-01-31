@@ -26,9 +26,14 @@ public class WarriorAttackDetector : MonoBehaviour
     {
         Debug.Log("Trigger enter " + other.gameObject.tag);
 
-        if (other.gameObject.tag == "Warrior" && 
-            other.gameObject.GetComponentInParent<Player>().playerIndex != gameObject.GetComponentInParent<Player>().playerIndex) OnTriggerListener(other);
+        if (other.gameObject.GetComponent<Health>() != null && !theSameTeam(gameObject, other.gameObject))
+        {
+            OnTriggerListener(other);
+        }
+    }
 
-        if (other.gameObject.tag == "Pyramid") OnTriggerListener(other);
+    bool theSameTeam(GameObject obj1, GameObject obj2)
+    {
+        return obj1.GetComponentInParent<Player>().playerIndex == obj2.GetComponentInParent<Player>().playerIndex;
     }
 }

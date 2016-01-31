@@ -29,6 +29,9 @@ public class Health : MonoBehaviour
         {
             GameObject.Destroy(gameObject, DeathDelay);
         }
-        OnTakeDamage(damage, damageUser);
+        if(OnTakeDamage != null)
+        {
+            OnTakeDamage(damage, damageUser);
+        }
     }
 }
