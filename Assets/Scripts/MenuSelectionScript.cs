@@ -17,6 +17,8 @@ public class MenuSelectionScript : MonoBehaviour
     public GameObject[] MenuItems;
     public AudioClip[] aClips = new AudioClip[3];
     private AudioSource myASource;
+    public GameObject rightArrow;
+    public GameObject[] OptionsItems;
     ProperInput pIn;
 
     void Start()
@@ -39,11 +41,13 @@ public class MenuSelectionScript : MonoBehaviour
             currSel = 0;
         }
 
-        Vector3 pos = transform.localPosition;
-        
-        float midVal = (elemAmount / 2) - 0.5f;
-        pos.y = (currSel - midVal) * spacing;
-        transform.localPosition = pos;
+        Vector3 pos = OptionsItems[currSel].transform.position;
+        pos.z = transform.position.z;
+        transform.position = pos;
+
+        float distance = OptionsItems[currSel].GetComponent<RectTransform>().sizeDelta.x / 30;
+        Vector3 rArrowPos = transform.InverseTransformPoint(new Vector3(pos.x + distance, pos.y, rightArrow.transform.position.z));
+        rightArrow.transform.localPosition = rArrowPos;
 
         if (pIn.GetDown(ButtonAction.Green))
         {
