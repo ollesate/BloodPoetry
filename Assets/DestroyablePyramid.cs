@@ -43,7 +43,7 @@ public class DestroyablePyramid : MonoBehaviour {
         }
         else
         {
-            Debug.Log("Cant destroy pyramid with 0 steps. Please set nr of steps");
+            //Debug.Log("Cant destroy pyramid with 0 steps. Please set nr of steps");
         }
     }
 }

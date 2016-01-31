@@ -24,7 +24,7 @@ public class WarriorAttackDetector : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Trigger enter " + other.gameObject.tag);
+        //Debug.Log("Trigger enter " + other.gameObject.tag);
 
         if (other.gameObject.GetComponent<Health>() != null && !theSameTeam(gameObject, other.gameObject))
         {

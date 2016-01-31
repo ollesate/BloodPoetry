@@ -42,11 +42,11 @@ public class Player : MonoBehaviour {
 		divineBuffs = GetComponent<DivineBuffs>();
 		if(queueSystem == null)
 		{
-			Debug.Log("No Queuesystem is added to pyramid");
+            //Debug.Log("No Queuesystem is added to pyramid");
 		}
 		if (armySpawner == null)
 		{
-			Debug.Log("Armyspawner is null");
+            //Debug.Log("Armyspawner is null");
 		}
 	}
 
@@ -56,7 +56,7 @@ public class Player : MonoBehaviour {
 		myPriest.GetComponent<Animator>().SetBool("Attack", false);
 
 		// Update state.
-		Debug.Log( state );
+		////Debug.Log( state );
 		switch ( state )
 		{
 			case State.Idle:
@@ -213,7 +213,7 @@ public class Player : MonoBehaviour {
 		if(armySpawner != null)
 		{
 			armySpawner.SpawnUnit(Warrior.WarriorType.SPEAR);
-			Debug.Log("Spawning a spearman");
+			//Debug.Log("Spawning a spearman");
 		}
 		else
 		{
@@ -226,7 +226,7 @@ public class Player : MonoBehaviour {
 		if (armySpawner != null)
 		{
 			armySpawner.SpawnUnit(Warrior.WarriorType.CLUB);
-			Debug.Log("Spawning a clubman");
+			//Debug.Log("Spawning a clubman");
 		}
 		else
 		{
@@ -238,7 +238,7 @@ public class Player : MonoBehaviour {
 	{
 		if (armySpawner != null)
 		{
-			Debug.Log("Spawning a blowgunner");
+			//Debug.Log("Spawning a blowgunner");
 			armySpawner.SpawnUnit(Warrior.WarriorType.BLOWGUN);
 		}
 		else

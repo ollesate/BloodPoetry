@@ -61,7 +61,7 @@ public class WarriorAI : MonoBehaviour
         }
         else
         {
-            Debug.Log("Did you forget to set DivineBuffs Script in player or maybe Warrior isnt spawned as a minion to player");
+            //Debug.Log("Did you forget to set DivineBuffs Script in player or maybe Warrior isnt spawned as a minion to player");
         }
     }
 
@@ -138,7 +138,7 @@ public class WarriorAI : MonoBehaviour
         }
         else if (other.tag == "Pyramid")
         {
-            Debug.Log("Warrior detected pyramid");
+            //Debug.Log("Warrior detected pyramid");
         }
         
     }
@@ -157,7 +157,7 @@ public class WarriorAI : MonoBehaviour
     {
         if(buff == DivineBuffs.BuffType.POWER)
         {
-            Debug.Log("Warrior received divinte intervention"); 
+            //Debug.Log("Warrior received divinte intervention"); 
             hasDivineIntervention = true;
             powerupEffect.Play();
         }
@@ -167,7 +167,7 @@ public class WarriorAI : MonoBehaviour
     {
         if (buff == DivineBuffs.BuffType.POWER)
         {
-            Debug.Log("Divinte intervention faded from warrior");
+            //Debug.Log("Divinte intervention faded from warrior");
             hasDivineIntervention = false;
             powerupEffect.Stop();
             powerupEffect.Clear();

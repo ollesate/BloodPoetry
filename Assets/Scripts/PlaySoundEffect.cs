@@ -22,16 +22,19 @@ public class PlaySoundEffect : MonoBehaviour {
 	{
 		if (myClip.isReadyToPlay)
 		{
+			myASource.volume = PlayerPrefs.GetFloat("SEVolume");
 			myASource.PlayOneShot(myASource.clip);
 		}
 	}
 
 	public void PlaySoundAtPos()
 	{
+		myASource.volume = PlayerPrefs.GetFloat("SEVolume");
 		AudioSource.PlayClipAtPoint(myClip, transform.position);
 	}
 	public void PlayMyAttack()
 	{
+		myASource.volume = PlayerPrefs.GetFloat("SEVolume");
 		AudioSource.PlayClipAtPoint(myAttackClip, transform.position);
 	}
 

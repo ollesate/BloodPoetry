@@ -77,6 +77,7 @@ public class MenuSelectionScript : MonoBehaviour
     IEnumerator StartGame()
     {
         myASource.Stop();
+        myASource.volume = PlayerPrefs.GetFloat("SEVolume");
         myASource.PlayOneShot(aClips[0]);
         yield return new WaitForSeconds(myASource.clip.length);
         UnityEngine.SceneManagement.SceneManager.LoadScene(1);
@@ -85,6 +86,7 @@ public class MenuSelectionScript : MonoBehaviour
     IEnumerator Exit()
     {
         myASource.Stop();
+        myASource.volume = PlayerPrefs.GetFloat("SEVolume");
         myASource.PlayOneShot(aClips[2]);
         yield return new WaitForSeconds(myASource.clip.length);
         Application.Quit();
