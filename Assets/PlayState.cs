@@ -9,6 +9,8 @@ public class PlayState : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("MVolume");
+        
         Player[] players = gameObject.GetComponentsInChildren<Player>();
 
         int N = 0;
