@@ -61,7 +61,8 @@ public class Player : MonoBehaviour {
 	void Update() {
 
 		// Update queue.
-		myPriest.GetComponent<Animator>().SetBool("Attack", false);
+        if (myPriest != null)
+		    myPriest.GetComponent<Animator>().SetBool("Attack", false);
 
 		// Update state.
 		////Debug.Log( state );

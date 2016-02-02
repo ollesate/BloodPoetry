@@ -49,7 +49,7 @@ public class MenuSelectionScript : MonoBehaviour
         Vector3 rArrowPos = transform.InverseTransformPoint(new Vector3(pos.x + distance, pos.y, rightArrow.transform.position.z));
         rightArrow.transform.localPosition = rArrowPos;
 
-        if (pIn.GetDown(ButtonAction.Green))
+        if (pIn.GetDown(ButtonAction.Click))
         {
             if (currSel == 3) //Start
             {

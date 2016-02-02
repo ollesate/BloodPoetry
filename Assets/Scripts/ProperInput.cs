@@ -231,25 +231,48 @@ public class ProperInput
     IAxisMap[] axes;
 
     /* Constructors */
-    public ProperInput(int playerIndex)
+    public ProperInput( int playerIndex )
     {
-        btns = new IButtonMap[]
+        if ( playerIndex == 0 )
         {
-            new JoystickButtonMap(JoystickButton.X, playerIndex), // Blue,
-            new JoystickButtonMap(JoystickButton.A, playerIndex), // Green,
-            new JoystickButtonMap(JoystickButton.B, playerIndex), // Red,
-            new JoystickButtonMap(JoystickButton.Start, playerIndex), // Pause
-            new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.A, playerIndex), new KeyboardButtonMap(KeyCode.Return)), //MenuClick
-            new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.B, playerIndex), new KeyboardButtonMap(KeyCode.Backspace)), //MenuClickBack
-            new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.Start, playerIndex), new KeyboardButtonMap(KeyCode.Escape)) //escape
-        };
+            btns = new IButtonMap[]
+            {
+                new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.X, playerIndex), new KeyboardButtonMap(KeyCode.Z)), // Blue,
+                new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.A, playerIndex), new KeyboardButtonMap(KeyCode.X)), // Green,
+                new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.B, playerIndex), new KeyboardButtonMap(KeyCode.C)), // Red,
+                new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.Start, playerIndex), new KeyboardButtonMap(KeyCode.Escape)), // Pause
+                new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.A, playerIndex), new KeyboardButtonMap(KeyCode.Return)), //MenuClick
+                new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.B, playerIndex), new KeyboardButtonMap(KeyCode.Escape)), //MenuClickBack
+                new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.Start, playerIndex), new KeyboardButtonMap(KeyCode.Escape)) //escape
+            };
 
-        axes = new IAxisMap[]
+            axes = new IAxisMap[]
+            {
+                new AlternativeAxisMap(new JoystickAxisMap(JoystickAxis.LX, playerIndex), new DualButtonAxisMap(new KeyboardButtonMap(KeyCode.D), new KeyboardButtonMap(KeyCode.A))), // AimX,
+                new AlternativeAxisMap(new JoystickAxisMap(JoystickAxis.LY, playerIndex), new DualButtonAxisMap(new KeyboardButtonMap(KeyCode.W), new KeyboardButtonMap(KeyCode.S))), // AimY,
+                new AlternativeAxisMap(new JoystickAxisMap(JoystickAxis.RX, playerIndex), new DualButtonAxisMap(new KeyboardButtonMap(KeyCode.E), new KeyboardButtonMap(KeyCode.Q))) // CamX
+            };
+        }
+        else
         {
-            new JoystickAxisMap(JoystickAxis.LX, playerIndex), // AimX,
-            new JoystickAxisMap(JoystickAxis.LY, playerIndex), // AimY,
-            new JoystickAxisMap(JoystickAxis.RX, playerIndex) // CamX
-        };
+            btns = new IButtonMap[]
+            {
+                new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.X, playerIndex), new KeyboardButtonMap(KeyCode.Keypad1)), // Blue,
+                new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.A, playerIndex), new KeyboardButtonMap(KeyCode.Keypad2)), // Green,
+                new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.B, playerIndex), new KeyboardButtonMap(KeyCode.Keypad3)), // Red,
+                new AlternativeButtonMap(new JoystickButtonMap(JoystickButton.Start, playerIndex), new KeyboardButtonMap(KeyCode.Escape)), // Pause
+                new JoystickButtonMap(JoystickButton.A, playerIndex), //MenuClick
+                new JoystickButtonMap(JoystickButton.B, playerIndex), //MenuClickBack
+                new JoystickButtonMap(JoystickButton.Start, playerIndex) //escape
+            };
+
+            axes = new IAxisMap[]
+            {
+                new AlternativeAxisMap(new JoystickAxisMap(JoystickAxis.LX, playerIndex), new DualButtonAxisMap(new KeyboardButtonMap(KeyCode.Keypad6), new KeyboardButtonMap(KeyCode.Keypad4))), // AimX,
+                new AlternativeAxisMap(new JoystickAxisMap(JoystickAxis.LY, playerIndex), new DualButtonAxisMap(new KeyboardButtonMap(KeyCode.Keypad8), new KeyboardButtonMap(KeyCode.Keypad5))), // AimY,
+                new AlternativeAxisMap(new JoystickAxisMap(JoystickAxis.RX, playerIndex), new DualButtonAxisMap(new KeyboardButtonMap(KeyCode.Keypad9), new KeyboardButtonMap(KeyCode.Keypad7))) // CamX
+            };
+        }
     }
 
     /* Methods */

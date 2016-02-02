@@ -176,7 +176,8 @@ public class WarriorAI : MonoBehaviour
         {
             //Debug.Log("Warrior received divinte intervention"); 
             hasDivineIntervention = true;
-            powerupEffect.Play();
+            if (powerupEffect != null)
+                powerupEffect.Play();
         }
     }
 
@@ -186,8 +187,11 @@ public class WarriorAI : MonoBehaviour
         {
             //Debug.Log("Divinte intervention faded from warrior");
             hasDivineIntervention = false;
-            powerupEffect.Stop();
-            powerupEffect.Clear();
+            if (powerupEffect != null )
+            {
+                powerupEffect.Stop();
+                powerupEffect.Clear();
+            }
         }
     }
 

@@ -31,11 +31,11 @@ public class PlayState : MonoBehaviour {
             {
                 if (i == 0)
                 {
-                    players[i].GetComponentInChildren<Camera>().rect = new Rect( 0, 0, 1, Nreci - border / 2 );
+                    players[i].GetComponentInChildren<Camera>().rect = new Rect( 0, Nreci + border / 2, 1, Nreci - border / 2 );
                 }
                 else
                 {
-                    players[i].GetComponentInChildren<Camera>().rect = new Rect( 0, Nreci + border / 2, 1, Nreci - border / 2 );
+                    players[i].GetComponentInChildren<Camera>().rect = new Rect( 0, 0, 1, Nreci - border / 2 );
                 }
             }
             else
