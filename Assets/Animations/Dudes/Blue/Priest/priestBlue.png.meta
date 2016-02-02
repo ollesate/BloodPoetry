@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: 31ba04f7fe3c6ca439d15aa2af9f1e0f
+timeCreated: 1454417327
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: priestBlue_0
+    21300002: priestBlue_1
+    21300004: priestBlue_2
+    21300006: priestBlue_3
+    21300008: priestBlue_4
+    21300010: priestBlue_5
+    21300012: priestBlue_6
+    21300014: priestBlue_7
+    21300016: priestBlue_8
+    21300018: priestBlue_9
+    21300020: priestBlue_10
+    21300022: priestBlue_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: priestBlue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 25.799988}
+        - {x: 23, y: 37.799988}
+        - {x: 4, y: 52.799988}
+        - {x: -11, y: 52.799988}
+        - {x: -32, y: 36.799988}
+        - {x: -32, y: -42.200012}
+        - {x: -24, y: -87.20001}
+        - {x: 17, y: -87.20001}
+        - {x: 21, y: -80.20001}
+        - {x: 30, y: -30.200012}
+    - name: priestBlue_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 304
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 52.799988}
+        - {x: -31, y: 42.799988}
+        - {x: -32, y: 38.799988}
+        - {x: -32, y: -44.200012}
+        - {x: -20, y: -87.20001}
+        - {x: 24, y: -87.20001}
+        - {x: 30, y: -44.200012}
+        - {x: 30, y: 36.799988}
+        - {x: 12, y: 52.799988}
+    - name: priestBlue_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 304
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 50.799988}
+        - {x: -10, y: 50.799988}
+        - {x: -32, y: 28.799988}
+        - {x: -32, y: -29.200012}
+        - {x: -29, y: -61.200012}
+        - {x: -20, y: -87.20001}
+        - {x: 19, y: -87.20001}
+        - {x: 28, y: -82.20001}
+        - {x: 30, y: -64.20001}
+        - {x: 30, y: 34.799988}
+    - name: priestBlue_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 304
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 50.799988}
+        - {x: -32, y: 29.799988}
+        - {x: -32, y: -31.200012}
+        - {x: -29, y: -61.200012}
+        - {x: -20, y: -87.20001}
+        - {x: 20, y: -87.20001}
+        - {x: 30, y: -42.200012}
+        - {x: 30, y: 34.799988}
+        - {x: 6, y: 50.799988}
+    - name: priestBlue_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 50.799988}
+        - {x: -10, y: 50.799988}
+        - {x: -32, y: 28.799988}
+        - {x: -32, y: -29.200012}
+        - {x: -29, y: -61.200012}
+        - {x: -20, y: -87.20001}
+        - {x: 19, y: -87.20001}
+        - {x: 28, y: -82.20001}
+        - {x: 30, y: -64.20001}
+        - {x: 30, y: 34.799988}
+    - name: priestBlue_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 152
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 50.799988}
+        - {x: -32, y: 28.799988}
+        - {x: -32, y: -29.200012}
+        - {x: -29, y: -61.200012}
+        - {x: -20, y: -87.20001}
+        - {x: 20, y: -87.20001}
+        - {x: 30, y: -79.20001}
+        - {x: 30, y: 45.799988}
+        - {x: 16, y: 50.799988}
+    - name: priestBlue_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 152
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 52.799988}
+        - {x: -11, y: 52.799988}
+        - {x: -32, y: 36.799988}
+        - {x: -32, y: -43.200012}
+        - {x: -25, y: -87.20001}
+        - {x: 31, y: -87.20001}
+        - {x: 44, y: -69.20001}
+        - {x: 44, y: -9.200012}
+        - {x: 27, y: 41.799988}
+    - name: priestBlue_7
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 152
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: -3.2000122}
+        - {x: 28, y: 42.799988}
+        - {x: 8, y: 52.799988}
+        - {x: -9, y: 52.799988}
+        - {x: -32, y: 30.799988}
+        - {x: -32, y: -28.200012}
+        - {x: -29, y: -59.200012}
+        - {x: -20, y: -87.20001}
+        - {x: 16, y: -87.20001}
+        - {x: 18, y: -85.20001}
+        - {x: 18, y: -81.20001}
+        - {x: 60, y: -20.200012}
+    - name: priestBlue_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 50.799995}
+        - {x: -35, y: 24.799995}
+        - {x: -42, y: -33.200005}
+        - {x: -42, y: -63.200005}
+        - {x: -27, y: -84.200005}
+        - {x: -21, y: -87.200005}
+        - {x: 32, y: -87.200005}
+        - {x: 32, y: 32.799995}
+        - {x: 9, y: 50.799995}
+    - name: priestBlue_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 50.799995}
+        - {x: -48, y: 10.799995}
+        - {x: -48, y: -70.200005}
+        - {x: -42, y: -87.200005}
+        - {x: -28, y: -87.200005}
+        - {x: -16, y: -64.200005}
+        - {x: -11, y: -50.200005}
+        - {x: -15, y: -62.200005}
+        - {x: -19, y: -80.200005}
+        - {x: -18, y: -87.200005}
+        - {x: 27, y: -87.200005}
+        - {x: 32, y: -55.200005}
+        - {x: 32, y: 36.799995}
+        - {x: 12, y: 50.799995}
+    - name: priestBlue_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 52.799995}
+        - {x: -62, y: -13.200005}
+        - {x: -62, y: -63.200005}
+        - {x: -27, y: -87.200005}
+        - {x: 21, y: -87.200005}
+        - {x: 32, y: -43.200005}
+        - {x: 32, y: 32.799995}
+        - {x: 18, y: 52.799995}
+    - name: priestBlue_11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 52.799995}
+        - {x: -62, y: -13.200005}
+        - {x: -62, y: -63.200005}
+        - {x: -27, y: -87.200005}
+        - {x: 21, y: -87.200005}
+        - {x: 32, y: -43.200005}
+        - {x: 32, y: 32.799995}
+        - {x: 18, y: 52.799995}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

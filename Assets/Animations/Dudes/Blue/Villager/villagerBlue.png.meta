@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 80882c24e9bb8c04b9f14a554cce0fcd
+timeCreated: 1454417367
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: villagerBlue_0
+    21300002: villagerBlue_1
+    21300004: villagerBlue_2
+    21300006: villagerBlue_3
+    21300008: villagerBlue_4
+    21300010: villagerBlue_5
+    21300012: villagerBlue_6
+    21300014: villagerBlue_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: villagerBlue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -53.600006}
+        - {x: 14, y: -53.600006}
+        - {x: 18, y: -51.600006}
+        - {x: 18, y: -1.6000061}
+        - {x: 17, y: 4.399994}
+        - {x: -12, y: 4.399994}
+        - {x: -12, y: -53.600006}
+        - {x: -2, y: -53.600006}
+        - {x: 0, y: -51.600006}
+        - {x: 0, y: -43.600006}
+        - {x: 0, y: -51.600006}
+    - name: villagerBlue_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -53.600006}
+        - {x: 14, y: -53.600006}
+        - {x: 18, y: -33.600006}
+        - {x: 18, y: -10.600006}
+        - {x: 10, y: 2.399994}
+        - {x: -2, y: 2.399994}
+        - {x: -7, y: 0.3999939}
+        - {x: -12, y: -11.600006}
+        - {x: -12, y: -40.600006}
+        - {x: -10, y: -53.600006}
+        - {x: -2, y: -53.600006}
+        - {x: 0, y: -51.600006}
+        - {x: 0, y: -43.600006}
+        - {x: 0, y: -51.600006}
+    - name: villagerBlue_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -53.600006}
+        - {x: 10, y: -53.600006}
+        - {x: 14, y: -42.600006}
+        - {x: 18, y: -29.600006}
+        - {x: 18, y: -10.600006}
+        - {x: 12, y: 2.399994}
+        - {x: -1, y: 2.399994}
+        - {x: -12, y: -4.600006}
+        - {x: -12, y: -48.600006}
+        - {x: -10, y: -53.600006}
+        - {x: -2, y: -53.600006}
+        - {x: 0, y: -51.600006}
+        - {x: 0, y: -43.600006}
+        - {x: 0, y: -51.600006}
+    - name: villagerBlue_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -53.600006}
+        - {x: 10, y: -53.600006}
+        - {x: 18, y: -39.600006}
+        - {x: 18, y: -6.600006}
+        - {x: 14, y: 4.399994}
+        - {x: -12, y: 4.399994}
+        - {x: -12, y: -53.600006}
+        - {x: -1, y: -53.600006}
+        - {x: 0, y: -51.600006}
+        - {x: 0, y: -43.600006}
+        - {x: 0, y: -51.600006}
+    - name: villagerBlue_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -7.6000023}
+        - {x: 18, y: 2.3999977}
+        - {x: -2, y: 2.3999977}
+        - {x: -16, y: -19.600002}
+        - {x: -20, y: -36.600002}
+        - {x: -20, y: -49.600002}
+        - {x: -16, y: -53.600002}
+        - {x: 20, y: -53.600002}
+    - name: villagerBlue_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 4.3999977}
+        - {x: -7, y: 2.3999977}
+        - {x: -12, y: -6.6000023}
+        - {x: -12, y: -39.600002}
+        - {x: -7, y: -53.600002}
+        - {x: 11, y: -53.600002}
+        - {x: 18, y: -36.600002}
+        - {x: 18, y: -15.600002}
+        - {x: 10, y: 4.3999977}
+    - name: villagerBlue_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 4.3999977}
+        - {x: -6, y: 2.3999977}
+        - {x: -12, y: -8.600002}
+        - {x: -12, y: -37.600002}
+        - {x: -7, y: -53.600002}
+        - {x: 14, y: -53.600002}
+        - {x: 18, y: -37.600002}
+        - {x: 18, y: -7.6000023}
+        - {x: 10, y: 4.3999977}
+    - name: villagerBlue_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -16.600002}
+        - {x: 9, y: 2.3999977}
+        - {x: -12, y: 2.3999977}
+        - {x: -20, y: -20.600002}
+        - {x: -20, y: -53.600002}
+        - {x: 20, y: -53.600002}
+        - {x: 20, y: -45.600002}
+        - {x: 18, y: -43.600002}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
