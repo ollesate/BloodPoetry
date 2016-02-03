@@ -34,8 +34,8 @@ public class SunCycle : MonoBehaviour {
 
         cams = GetComponentInParent<PlayState>().GetCameras();
 	}
-	
-	void Update () {
+
+    void Update() {
 
         angle += rotationSpeed * Time.deltaTime;
         transform.position = startPosition + new Vector3( offsetX * Mathf.Cos( angle ), offsetY * Mathf.Sin( angle ), 0 );
@@ -48,20 +48,14 @@ public class SunCycle : MonoBehaviour {
             foreach ( var cam in cams )
             {
                 cam.backgroundColor = Color.Lerp( Color.black, dawnColor, t );
-				Quaternion newRot = Quaternion.AngleAxis(90 - 90 * t, Vector3.right);
-				dirLight.transform.rotation = Quaternion.Lerp(dirLight.transform.rotation, newRot, t);
-				//dirLight.color = cam.backgroundColor;
             }
         }
-        else if (colorAmount < zenithT) // Not yet zenith
+        else if ( colorAmount < zenithT ) // Not yet zenith
         {
             t = ( colorAmount - dawnT ) / ( zenithT - dawnT );
             foreach ( var cam in cams )
             {
                 cam.backgroundColor = Color.Lerp( dawnColor, zenithColor, t );
-				Quaternion newRot = Quaternion.AngleAxis(90 * t, Vector3.right);
-				dirLight.transform.rotation = Quaternion.Lerp(dirLight.transform.rotation, newRot, t);
-				//dirLight.color = cam.backgroundColor;
             }
         }
         else
@@ -69,10 +63,9 @@ public class SunCycle : MonoBehaviour {
             foreach ( var cam in cams )
             {
                 cam.backgroundColor = zenithColor;
-				Quaternion newRot = Quaternion.AngleAxis(0, Vector3.right);
-				dirLight.transform.rotation = newRot;
-				//dirLight.color = cam.backgroundColor;
             }
         }
+
+        dirLight.transform.rotation = Quaternion.Euler( 180 + angle * 180 / Mathf.PI, 90, 0 );
     }
 }
