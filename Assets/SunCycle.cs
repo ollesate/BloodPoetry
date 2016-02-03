@@ -12,6 +12,7 @@ public class SunCycle : MonoBehaviour {
     public Color dawnColor;
     public float dawnT;
     public float zenithT;
+	public Light dirLight;
 
     float angle;
     float colorAmount;
@@ -31,7 +32,7 @@ public class SunCycle : MonoBehaviour {
         rotationSpeed = totalRotate / seconds;
         startPosition = transform.position;
 
-        cams = GetComponentInParent< PlayState>().GetCameras();
+        cams = GetComponentInParent<PlayState>().GetCameras();
 	}
 	
 	void Update () {
@@ -40,22 +41,27 @@ public class SunCycle : MonoBehaviour {
         transform.position = startPosition + new Vector3( offsetX * Mathf.Cos( angle ), offsetY * Mathf.Sin( angle ), 0 );
 
         colorAmount = Mathf.Max( Mathf.Sin( angle ), 0 );
-
         float t = 0;
-        if ( colorAmount < dawnT )
+        if ( colorAmount < dawnT ) // Dawn
         {
             t = colorAmount / dawnT;
             foreach ( var cam in cams )
             {
                 cam.backgroundColor = Color.Lerp( Color.black, dawnColor, t );
+				Quaternion newRot = Quaternion.AngleAxis(90 - 90 * t, Vector3.right);
+				dirLight.transform.rotation = Quaternion.Lerp(dirLight.transform.rotation, newRot, t);
+				//dirLight.color = cam.backgroundColor;
             }
         }
-        else if (colorAmount < zenithT)
+        else if (colorAmount < zenithT) // Not yet zenith
         {
             t = ( colorAmount - dawnT ) / ( zenithT - dawnT );
             foreach ( var cam in cams )
             {
                 cam.backgroundColor = Color.Lerp( dawnColor, zenithColor, t );
+				Quaternion newRot = Quaternion.AngleAxis(90 * t, Vector3.right);
+				dirLight.transform.rotation = Quaternion.Lerp(dirLight.transform.rotation, newRot, t);
+				//dirLight.color = cam.backgroundColor;
             }
         }
         else
@@ -63,6 +69,9 @@ public class SunCycle : MonoBehaviour {
             foreach ( var cam in cams )
             {
                 cam.backgroundColor = zenithColor;
+				Quaternion newRot = Quaternion.AngleAxis(0, Vector3.right);
+				dirLight.transform.rotation = newRot;
+				//dirLight.color = cam.backgroundColor;
             }
         }
     }
